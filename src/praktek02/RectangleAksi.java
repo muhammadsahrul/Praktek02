@@ -2,12 +2,18 @@ package praktek02;
 
 public class RectangleAksi {
     public static void main(String[] args) {
-        Rectangle rl = new Rectangle();
-        rl.panjang = 9;
-        rl.lebar = 3;
+        Rectangle r1 = new Rectangle();
+        r1.panjang = 9;
+        r1.lebar = 3;
         
-        rl.cetakinfo();
-        System.out.println("Luas rectangle = "+rl.hitungLuas());
-        rl.cetakLuas();
+        r1.cetakinfo();
+        System.out.println("Luas rectangle = "+r1.hitungLuas());
+        r1.cetakLuas();
+        
+        Rectangle r2 = new Rectangle();
+        r2.cetakinfo();
+        
+        Rectangle r3 = new Rectangle(50,30);
+        r3.cetakinfo();
     }
 }
